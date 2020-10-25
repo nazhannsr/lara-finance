@@ -27,11 +27,11 @@
             <div>
                 <!-- Main Content -->
                 <div>
-                    {{-- @include('frontend.includes.nav') --}}
+                    @include('frontend.includes.nav')
 
                 <!-- Begin Page Content -->
                 <div>
-test
+                    test
                     @include('frontend.partials.messages')
                     @yield('content')
 
