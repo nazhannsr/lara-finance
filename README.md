@@ -9,15 +9,15 @@
 
 ## Installation Version
 
-Laravel 8.11.2
-Composer 2.0.0
-PHP 7.3.16
+* [Laravel](https://laravel.com/docs/8.x) 8.11.2
+* [Composer](https://getcomposer.org/) 2.0.0
+* [PHP](https://windows.php.net/downloads/releases/archives/) 7.3.16
 
 ## Other Dependencies Installed
 
-* Laravel/UI
-* Spatie/Laravel-Permission
-* Balping/Laravel-Hashslug
+* [Laravel/UI](https://laravel.com/docs/7.x/frontend)
+* [Spatie/Laravel-Permission](https://spatie.be/docs/laravel-permission/v3/installation-laravel)
+* [Balping/Laravel-Hashslug](https://github.com/balping/laravel-hashslug)
 
 ## Purpose of Project
 
@@ -58,6 +58,10 @@ Companies
 Customers
 * customer1@admin.com password
 * customer2@admin.com password
+
+Credentials can be updated at
+* database\seeders\UserTableSeeder.php
+Note: make sure to assign the roles to either 'company' or 'customer' when adding new user
 
 ## License
 
