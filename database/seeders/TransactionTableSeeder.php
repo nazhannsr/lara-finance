@@ -18,7 +18,7 @@ class TransactionTableSeeder extends Seeder
     public function run()
     {
         Transaction::create([
-            'invoice_number'        => '0000001',
+            'invoice_number'        => '00000001',
             'transaction_name'      => 'White Shirt x2',
             'total_price'           => 100.00,
             'outstanding_balance'   => 100.00,
@@ -30,7 +30,7 @@ class TransactionTableSeeder extends Seeder
         ]);
 
         Transaction::create([
-            'invoice_number'        => '0000002',
+            'invoice_number'        => '00000002',
             'transaction_name'      => 'White Shirt x2',
             'total_price'           => 500.00,
             'outstanding_balance'   => 500.00,
@@ -42,7 +42,7 @@ class TransactionTableSeeder extends Seeder
         ]);
 
         Transaction::create([
-            'invoice_number'        => '0000003',
+            'invoice_number'        => '00000003',
             'transaction_name'      => 'White Shirt x2',
             'total_price'           => 300.00,
             'outstanding_balance'   => 300.00,
@@ -54,7 +54,7 @@ class TransactionTableSeeder extends Seeder
         ]);
 
         Transaction::create([
-            'invoice_number'        => '0000004',
+            'invoice_number'        => '00000004',
             'transaction_name'      => 'White Shirt x2',
             'total_price'           => 500.00,
             'outstanding_balance'   => 250.00,
@@ -66,7 +66,7 @@ class TransactionTableSeeder extends Seeder
         ]);
 
         Transaction::create([
-            'invoice_number'        => '0000005',
+            'invoice_number'        => '00000005',
             'transaction_name'      => 'White Shirt x2',
             'total_price'           => 800.00,
             'outstanding_balance'   => 800.00,

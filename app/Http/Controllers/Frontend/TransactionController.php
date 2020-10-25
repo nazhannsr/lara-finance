@@ -95,7 +95,7 @@ class TransactionController extends Controller
             return redirect()->route('customer.transaction.index')->with('flash_success', 'Payment Successful');
         }
         else{
-            return redirect()->route('customer.transaction.index')->withErrors(['msg', 'Failed payment']);
+            return redirect()->route('customer.transaction.index')->withErrors(['Failed payment']);
         }
     }
 
