@@ -15,9 +15,9 @@ PHP 7.3.16
 
 ## Other Dependencies Installed
 
-Laravel/UI
-Spatie/Laravel-Permission
-Balping/Laravel-Hashslug
+* Laravel/UI
+* Spatie/Laravel-Permission
+* Balping/Laravel-Hashslug
 
 ## Purpose of Project
 
@@ -47,6 +47,17 @@ php artisan migrate:fresh --seed
 ```
 php artisan serve
 ```
+
+## User Credential
+
+Companies
+* company1@admin.com password
+* company2@admin.com password
+* company3@admin.com password
+
+Customers
+* customer1@admin.com password
+* customer2@admin.com password
 
 ## License
 
